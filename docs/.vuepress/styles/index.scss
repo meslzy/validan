@@ -1,0 +1,42 @@
+html {
+  scroll-behavior: smooth;
+
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: var(--c-bg);
+    border-left: 1px solid var(--c-border);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: var(--c-brand);
+    border-left: 1px solid var(--c-border);
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background: var(--c-brand-light);
+  }
+
+  &:root {
+    --c-brand: #646cff;
+    --c-brand-light: #747bff;
+
+    --c-tip: #646cff;
+
+    --c-bg: hsl(210, 45%, 95%);
+    --c-bg-light: hsl(210, 45%, 90%);
+    --c-bg-lighter: hsl(210, 45%, 85%);
+
+    --c-border: hsl(210, 45%, 80%);
+  }
+
+  &.dark {
+    --c-bg: hsl(215, 15%, 15%);
+    --c-bg-light: hsl(215, 15%, 10%);
+    --c-bg-lighter: hsl(215, 15%, 5%);
+
+    --c-border: hsl(210, 18%, 30%);
+  }
+}

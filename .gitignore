@@ -1,0 +1,20 @@
+# ide directory
+.idea/
+
+# node_modules directory
+node_modules/
+
+# lock files
+package-lock.json
+yarn.lock
+
+# vuepress directory
+docs/.vuepress/.cache/
+docs/.vuepress/.temp/
+
+# vuepress output directory
+docs/.vuepress/dist/
+
+# project directory
+dist/
+coverage/
